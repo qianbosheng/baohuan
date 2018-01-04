@@ -1,0 +1,2022 @@
+2018-01-04 09:41:31 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd9979f7d20; archive(resolved)='<IDEArchive: 0x7fd978c7cf50>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team(resolved)='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fd9979f7d20; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd97ab7ee60; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd98e82f4b0; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd992e0bb50; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd992e09c40; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd9964beaf0; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd997edc930; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd99032e080; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd997edfaf0; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='<IDEProvisioningBasicTeam 0x7fd991308ac0: teamID: YV66YG42MQ, teamName: Hebei Asia Network Technology Co., Ltd.>'>
+	<IDEDistributionContext: 0x7fd997dc26d0; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd992fe7040>', team='(null)'>
+	<IDEDistributionContext: 0x7fd9911a1c30; archive = '<IDEArchive: 0x7fd978c7cf50>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd9979f7d20>
+2018-01-04 09:41:31 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-01-04 09:41:31 +0000  Processing step: IDEDistributionCopyItemStep
+2018-01-04 09:41:31 +0000  Running /usr/bin/ditto '-V' '/Users/qianbosheng/Library/Developer/Xcode/Archives/2018-01-04/Universal 2018-1-4 下午5.31.xcarchive/Products/Applications/Universal.app' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root/Payload/Universal.app'
+2018-01-04 09:41:31 +0000  >>> Copying /Users/qianbosheng/Library/Developer/Xcode/Archives/2018-01-04/Universal 2018-1-4 下午5.31.xcarchive/Products/Applications/Universal.app 
+2018-01-04 09:41:31 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-01-04 09:41:31 +0000  19911 bytes for ./_CodeSignature/CodeResources
+2018-01-04 09:41:31 +0000  copying file ./mainAdvertCell.nib ... 
+2018-01-04 09:41:31 +0000  4751 bytes for ./mainAdvertCell.nib
+2018-01-04 09:41:31 +0000  copying file ./registerNextViewController.nib ... 
+2018-01-04 09:41:31 +0000  6009 bytes for ./registerNextViewController.nib
+2018-01-04 09:41:31 +0000  copying file ./startViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  6153 bytes for ./startViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./startViewController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  5486 bytes for ./startViewController.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./feedbackViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  3942 bytes for ./feedbackViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./feedbackViewController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  3275 bytes for ./feedbackViewController.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./homeLiveTableViewCell.nib ... 
+2018-01-04 09:41:31 +0000  3757 bytes for ./homeLiveTableViewCell.nib
+2018-01-04 09:41:31 +0000  copying file ./mainRepairsViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  6403 bytes for ./mainRepairsViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./mainRepairsViewController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  5737 bytes for ./mainRepairsViewController.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./Universal ... 
+2018-01-04 09:41:31 +0000  8445296 bytes for ./Universal
+2018-01-04 09:41:31 +0000  copying file ./changeNicknameVC.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  4043 bytes for ./changeNicknameVC.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./changeNicknameVC.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  3379 bytes for ./changeNicknameVC.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./payInfoView.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  5670 bytes for ./payInfoView.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./payInfoView.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  5006 bytes for ./payInfoView.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./addressView.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  5124 bytes for ./addressView.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./addressView.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  4454 bytes for ./addressView.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-01-04 09:41:31 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-04 09:41:31 +0000  1986 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-04 09:41:31 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  3682 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  3802 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-01-04 09:41:31 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-01-04 09:41:31 +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2018-01-04 09:41:31 +0000  368 bytes for ./archived-expanded-entitlements.xcent
+2018-01-04 09:41:31 +0000  copying file ./Assets.car ... 
+2018-01-04 09:41:31 +0000  216184 bytes for ./Assets.car
+2018-01-04 09:41:31 +0000  copying file ./LoginViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  6648 bytes for ./LoginViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./LoginViewController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  5979 bytes for ./LoginViewController.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./payRecordsCell.nib ... 
+2018-01-04 09:41:31 +0000  5427 bytes for ./payRecordsCell.nib
+2018-01-04 09:41:31 +0000  copying file ./personalCellTitle.plist ... 
+2018-01-04 09:41:31 +0000  245 bytes for ./personalCellTitle.plist
+copying file ./registerViewController.nib ... 
+2018-01-04 09:41:31 +0000  4912 bytes for ./registerViewController.nib
+2018-01-04 09:41:31 +0000  copying file ./addAddressViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  8146 bytes for ./addAddressViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:31 +0000  copying file ./addAddressViewController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  7488 bytes for ./addAddressViewController.nib/runtime.nib
+2018-01-04 09:41:31 +0000  copying file ./messagePayRecordsCell.nib ... 
+2018-01-04 09:41:31 +0000  6325 bytes for ./messagePayRecordsCell.nib
+copying file ./messageNoticeCell.nib ... 
+2018-01-04 09:41:31 +0000  4985 bytes for ./messageNoticeCell.nib
+2018-01-04 09:41:31 +0000  copying file ./embedded.mobileprovision ... 
+2018-01-04 09:41:31 +0000  7611 bytes for ./embedded.mobileprovision
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/info.png ... 
+2018-01-04 09:41:31 +0000  365 bytes for ./SVProgressHUD.bundle/info.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/error@3x.png ... 
+2018-01-04 09:41:31 +0000  398 bytes for ./SVProgressHUD.bundle/error@3x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/angle-mask@3x.png ... 
+2018-01-04 09:41:31 +0000  8319 bytes for ./SVProgressHUD.bundle/angle-mask@3x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/angle-mask@2x.png ... 
+2018-01-04 09:41:31 +0000  4893 bytes for ./SVProgressHUD.bundle/angle-mask@2x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/error@2x.png ... 
+2018-01-04 09:41:31 +0000  306 bytes for ./SVProgressHUD.bundle/error@2x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/info@3x.png ... 
+2018-01-04 09:41:31 +0000  1200 bytes for ./SVProgressHUD.bundle/info@3x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/success@2x.png ... 
+2018-01-04 09:41:31 +0000  462 bytes for ./SVProgressHUD.bundle/success@2x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/success@3x.png ... 
+2018-01-04 09:41:31 +0000  714 bytes for ./SVProgressHUD.bundle/success@3x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/info@2x.png ... 
+2018-01-04 09:41:31 +0000  816 bytes for ./SVProgressHUD.bundle/info@2x.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/error.png ... 
+2018-01-04 09:41:31 +0000  184 bytes for ./SVProgressHUD.bundle/error.png
+copying file ./SVProgressHUD.bundle/success.png ... 
+2018-01-04 09:41:31 +0000  262 bytes for ./SVProgressHUD.bundle/success.png
+2018-01-04 09:41:31 +0000  copying file ./SVProgressHUD.bundle/angle-mask.png ... 
+2018-01-04 09:41:31 +0000  1845 bytes for ./SVProgressHUD.bundle/angle-mask.png
+2018-01-04 09:41:31 +0000  copying file ./forgotPasswordViewController.nib ... 
+2018-01-04 09:41:31 +0000  8053 bytes for ./forgotPasswordViewController.nib
+2018-01-04 09:41:31 +0000  copying file ./Info.plist ... 
+2018-01-04 09:41:31 +0000  1231 bytes for ./Info.plist
+copying file ./WYPayController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:31 +0000  3941 bytes for ./WYPayController.nib/objects-11.0+.nib
+copying file ./WYPayController.nib/runtime.nib ... 
+2018-01-04 09:41:31 +0000  3273 bytes for ./WYPayController.nib/runtime.nib
+2018-01-04 09:41:32 +0000  copying file ./personalAddressCell.nib ... 
+2018-01-04 09:41:32 +0000  4742 bytes for ./personalAddressCell.nib
+2018-01-04 09:41:32 +0000  copying file ./PkgInfo ... 
+2018-01-04 09:41:32 +0000  8 bytes for ./PkgInfo
+2018-01-04 09:41:32 +0000  copying file ./changeResidenceVC.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:32 +0000  6528 bytes for ./changeResidenceVC.nib/objects-11.0+.nib
+copying file ./changeResidenceVC.nib/runtime.nib ... 
+2018-01-04 09:41:32 +0000  5864 bytes for ./changeResidenceVC.nib/runtime.nib
+2018-01-04 09:41:32 +0000  
+2018-01-04 09:41:32 +0000  2018-01-04 09:41:32 +0000  /usr/bin/ditto exited with 0
+2018-01-04 09:41:32 +0000  
+
+2018-01-04 09:41:32 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-01-04 09:41:32 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-01-04 09:41:32 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-01-04 09:41:32 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-01-04 09:41:32 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root' '--json' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool-json-filepath-ezcRY6' '--compile-bitcode' '--output' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-01-04 09:41:32 +0000  ruby 2.3.3p222 (2016-11-21 revision 56859) [universal.x86_64-darwin17]
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - minVersion
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1594: warning: assigned but unused variable - sdkVersion
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1603: warning: assigned but unused variable - sourceVersion
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:1705: warning: shadowing outer local variable - node
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoFile
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2472: warning: shadowing outer local variable - machoImage
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2499: warning: key :hasBitcode is duplicated and overwritten on line 2501
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - flag
+/Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2664: warning: assigned but unused variable - transformer
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:2914: warning: assigned but unused variable - exc
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:739: warning: assigned but unused variable - output
+2018-01-04 09:41:32 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-01-04 09:41:32 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-01-04 09:41:32 +0000  OS X 10.13.2 17C88
+2018-01-04 09:41:32 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/", "LOGNAME"=>"qianbosheng", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/qianbosheng", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.r1nFpRzwtO/Render", "USER"=>"qianbosheng", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.3HpzCJg4qo/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.1208", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x19:0x34"}
+ARGV: ["/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root", "--json", "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool-json-filepath-ezcRY6", "--compile-bitcode", "--output", "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-01-04 09:41:32 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool:101: warning: method redefined; discarding old to_h
+2018-01-04 09:41:32 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-04 09:41:32 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-04 09:41:32 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-01-04 09:41:32 +0000  Scanning IPA...
+2018-01-04 09:41:33 +0000  Complete LinkageGraph:
+    Universal.app/Universal armv7 ->
+    
+    Universal.app/Universal arm64 ->
+2018-01-04 09:41:33 +0000  Validating IPA structure...
+2018-01-04 09:41:34 +0000  Compiling bitcode...
+2018-01-04 09:41:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal --generate-dsym /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal.dSYM --strip-swift-symbols /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal
+2018-01-04 09:41:34 +0000    Compiling bitcode for armv7...
+    Compiling armv7 bitcode in 'Universal'
+2018-01-04 09:41:40 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 24517 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" 
+        -= Output =-
+        Non-fat file: /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal is architecture: armv7
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" 
+        -= Output =-
+        UUID: AEECED32-9469-3646-8C34-789F49E8B6D4 (armv7) /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" "-extract" "__LLVM" "__bundle" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/Universal4EjRk3/Universal.armv7.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "001" "-o" "001.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "002" "-o" "002.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "003" "-o" "003.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-a
+2018-01-04 09:41:40 +0000  pple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "004" "-o" "004.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "005" "-o" "005.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "006" "-o" "006.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "007" "-o" "007.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "008" "-o" "008.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "009" "-o" "009.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "010" "-o" "010.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "011" "-o" "011.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "012" "-o" "012.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "013" "-o" "013.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+2018-01-04 09:41:40 +0000      Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "014" "-o" "014.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "015" "-o" "015.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "016" "-o" "016.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "017" "-o" "017.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "018" "-o" "018.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "019" "-o" "019.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "020" "-o" "020.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "021" "-o" "021.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "022" "-o" "022.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-
+2018-01-04 09:41:40 +0000  obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "023" "-o" "023.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "024" "-o" "024.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "025" "-o" "025.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "026" "-o" "026.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "027" "-o" "027.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "028" "-o" "028.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "029" "-o" "029.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "030" "-o" "030.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "031" "-o" "031.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "032" "-o" "032.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/fol
+2018-01-04 09:41:40 +0000  ders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "033" "-o" "033.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "034" "-o" "034.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "035" "-o" "035.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "036" "-o" "036.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "037" "-o" "037.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "038" "-o" "038.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "039" "-o" "039.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "040" "-o" "040.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "041" "-o" "041.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-pa
+2018-01-04 09:41:40 +0000  sses" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "042" "-o" "042.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "043" "-o" "043.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "044" "-o" "044.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "045" "-o" "045.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "046" "-o" "046.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "047" "-o" "047.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "048" "-o" "048.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "049" "-o" "049.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "050" "-o" "050.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "051" "-o" "051.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f3
+2018-01-04 09:41:40 +0000  0smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "052" "-o" "052.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "053" "-o" "053.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "054" "-o" "054.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "055" "-o" "055.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "056" "-o" "056.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "057" "-o" "057.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "058" "-o" "058.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "059" "-o" "059.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "060" "-o" "060.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "a
+2018-01-04 09:41:40 +0000  pcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "061" "-o" "061.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "062" "-o" "062.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "063" "-o" "063.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "064" "-o" "064.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "065" "-o" "065.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "066" "-o" "066.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "067" "-o" "067.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "068" "-o" "068.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "069" "-o" "069.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "070" "-o" "070.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tem
+2018-01-04 09:41:40 +0000  p2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "071" "-o" "071.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "072" "-o" "072.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "073" "-o" "073.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "074" "-o" "074.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "075" "-o" "075.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "076" "-o" "076.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "077" "-o" "077.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "078" "-o" "078.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "079" "-o" "079.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi"
+2018-01-04 09:41:40 +0000   "soft" "-Os" "-x" "ir" "080" "-o" "080.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "081" "-o" "081.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "082" "-o" "082.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "083" "-o" "083.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "084" "-o" "084.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "085" "-o" "085.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "086" "-o" "086.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "087" "-o" "087.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "088" "-o" "088.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "089" "-o" "089.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Appl
+2018-01-04 09:41:40 +0000  ications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "090" "-o" "090.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "091" "-o" "091.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "092" "-o" "092.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "093" "-o" "093.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "094" "-o" "094.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "095" "-o" "095.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "096" "-o" "096.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "097" "-o" "097.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "098" "-o" "098.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir
+2018-01-04 09:41:40 +0000  " "099" "-o" "099.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "100" "-o" "100.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "101" "-o" "101.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "102" "-o" "102.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "103" "-o" "103.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "104" "-o" "104.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "105" "-o" "105.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "106" "-o" "106.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "107" "-o" "107.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "108" "-o" "108.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Con
+2018-01-04 09:41:40 +0000  tents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "109" "-o" "109.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "110" "-o" "110.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "111" "-o" "111.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "112" "-o" "112.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "113" "-o" "113.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "114" "-o" "114.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "115" "-o" "115.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "116" "-o" "116.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "117" "-o" "117.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "118" "-o" "118.o" 
+2018-01-04 09:41:40 +0000          -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "thumbv7-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "apcs-gnu" "-mfloat-abi" "soft" "-Os" "-x" "ir" "119" "-o" "119.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/temp2MY4JO
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "armv7" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/qianbosheng/Library/Developer/Xcode/DerivedData/Universal-flecpaeetukclpedvgwkgxejtvkh/Build/Intermediates.noindex/ArchiveIntermediates/Universal/IntermediateBuildFilesPath/Universal.build/Release-iphoneos/Universal.build/Objects-normal/armv7/Universal" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/Universal4EjRk3/Universal.armv7.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFou
+2018-01-04 09:41:40 +0000  ndation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/Universal4EjRk3/Universal.armv7.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" 
+        -= Output =-
+        UUID: 4BD42E56-48D7-3560-B157-B95E1C7E5B2B (armv7) /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" "-o" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Appli
+2018-01-04 09:41:40 +0000  cations/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal
+2018-01-04 09:41:41 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 24649 exit 0
+    Stdout:
+        /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/armv7/Payload/Universal.app/Universal [armv7, 0.144746 seconds]:
+    
+    Stderr:
+2018-01-04 09:41:41 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk -o /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal --generate-dsym /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal.dSYM --strip-swift-symbols /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal
+2018-01-04 09:41:41 +0000    Compiling bitcode for arm64...
+    Compiling arm64 bitcode in 'Universal'
+2018-01-04 09:41:47 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 24658 exit 0
+    Stdout:
+        Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk
+        Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        MachoInfo: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" 
+        -= Output =-
+        Non-fat file: /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal is architecture: arm64
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" 
+        -= Output =-
+        UUID: CB33D6E2-EFE5-37F7-BFDD-BA289BCE133B (arm64) /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
+        ExtractXAR: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" "-extract" "__LLVM" "__bundle" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/UniversalmX4789/Universal.arm64.xar" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Bitcode bundle version: 1.0
+        Debug: Setting platform to: iPhoneOS
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "001" "-o" "001.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "002" "-o" "002.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "003" "-o" "003.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "dar
+2018-01-04 09:41:47 +0000  winpcs" "-Os" "-x" "ir" "004" "-o" "004.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "005" "-o" "005.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "006" "-o" "006.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "007" "-o" "007.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "008" "-o" "008.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "009" "-o" "009.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "010" "-o" "010.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "011" "-o" "011.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "012" "-o" "012.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "013" "-o" "013.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-
+2018-01-04 09:41:47 +0000  x" "ir" "014" "-o" "014.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "015" "-o" "015.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "016" "-o" "016.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "017" "-o" "017.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "018" "-o" "018.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "019" "-o" "019.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "020" "-o" "020.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "021" "-o" "021.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "022" "-o" "022.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "023" "-o" "023.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "024" "-
+2018-01-04 09:41:47 +0000  o" "024.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "025" "-o" "025.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "026" "-o" "026.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "027" "-o" "027.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "028" "-o" "028.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "029" "-o" "029.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "030" "-o" "030.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "031" "-o" "031.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "032" "-o" "032.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "033" "-o" "033.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "034" "-o" "034.o" 
+    
+2018-01-04 09:41:47 +0000      -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "035" "-o" "035.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "036" "-o" "036.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "037" "-o" "037.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "038" "-o" "038.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "039" "-o" "039.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "040" "-o" "040.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "041" "-o" "041.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "042" "-o" "042.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "043" "-o" "043.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "044" "-o" "044.o" 
+        -= Output =-
+2018-01-04 09:41:47 +0000  
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "045" "-o" "045.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "046" "-o" "046.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "047" "-o" "047.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "048" "-o" "048.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "049" "-o" "049.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "050" "-o" "050.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "051" "-o" "051.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "052" "-o" "052.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "053" "-o" "053.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "054" "-o" "054.o" 
+        -= Output =-
+        Exited 
+2018-01-04 09:41:47 +0000  with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "055" "-o" "055.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "056" "-o" "056.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "057" "-o" "057.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "058" "-o" "058.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "059" "-o" "059.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "060" "-o" "060.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "061" "-o" "061.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "062" "-o" "062.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "063" "-o" "063.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "064" "-o" "064.o" 
+        -= Output =-
+        Exited with 0
+        
+2018-01-04 09:41:47 +0000          Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "065" "-o" "065.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "066" "-o" "066.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "067" "-o" "067.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "068" "-o" "068.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "069" "-o" "069.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "070" "-o" "070.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "071" "-o" "071.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "072" "-o" "072.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "073" "-o" "073.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "074" "-o" "074.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: C
+2018-01-04 09:41:47 +0000  ommand took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "075" "-o" "075.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "076" "-o" "076.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "077" "-o" "077.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "078" "-o" "078.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "079" "-o" "079.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "080" "-o" "080.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "081" "-o" "081.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "082" "-o" "082.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "083" "-o" "083.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "084" "-o" "084.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 se
+2018-01-04 09:41:47 +0000  conds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "085" "-o" "085.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "086" "-o" "086.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "087" "-o" "087.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "088" "-o" "088.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "089" "-o" "089.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "090" "-o" "090.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "091" "-o" "091.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "092" "-o" "092.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "093" "-o" "093.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "094" "-o" "094.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Cl
+2018-01-04 09:41:47 +0000  ang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "095" "-o" "095.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "096" "-o" "096.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "097" "-o" "097.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "098" "-o" "098.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "099" "-o" "099.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "100" "-o" "100.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "101" "-o" "101.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "102" "-o" "102.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "103" "-o" "103.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "104" "-o" "104.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/fol
+2018-01-04 09:41:47 +0000  ders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "105" "-o" "105.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "106" "-o" "106.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "107" "-o" "107.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "108" "-o" "108.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "109" "-o" "109.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios7.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "110" "-o" "110.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "111" "-o" "111.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "112" "-o" "112.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "113" "-o" "113.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "114" "-o" "114.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v15
+2018-01-04 09:41:47 +0000  0n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios8.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "115" "-o" "115.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "116" "-o" "116.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "117" "-o" "117.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios6.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "118" "-o" "118.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Clang: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios9.0.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "119" "-o" "119.o" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/P
+2018-01-04 09:41:47 +0000  latforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
+        Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd
+        Ld: cd /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/tempIZCo4u
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "9.0.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/qianbosheng/Library/Developer/Xcode/DerivedData/Universal-flecpaeetukclpedvgwkgxejtvkh/Build/Intermediates.noindex/ArchiveIntermediates/Universal/IntermediateBuildFilesPath/Universal.build/Release-iphoneos/Universal.build/Objects-normal/arm64/Universal" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk" "-sdk_version" "11.1.0" "-filelist" "/private/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/UniversalmX4789/Universal.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/UniversalmX4789/Universal.arm64.out" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal
+        
+        GetUUID: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folder
+2018-01-04 09:41:47 +0000  s/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" 
+        -= Output =-
+        UUID: E85E2B9B-AC56-3DEF-A073-E20DD7A3DC0E (arm64) /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        Dsymutil: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" "-o" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal.dSYM" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+        Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
+        StripSymbols: cd /
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal" 
+        -= Output =-
+        Exited with 0
+        
+        Debug: Command took 0 seconds
+    
+    Stderr:
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal
+2018-01-04 09:41:47 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 24790 exit 0
+    Stdout:
+        /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/ipatool20180104-24406-1pnm6s0/thinned/arm64/Payload/Universal.app/Universal [arm64, 0.065482 seconds]:
+    
+    Stderr:
+2018-01-04 09:41:48 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm/universal
+  Copying Universal.app output payload directory
+2018-01-04 09:41:48 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-2.3.5/lib/cfpropertylist/rbCFPropertyList.rb:394: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-01-04 09:41:48 +0000    Copying .dSYM files to /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm/universal/dSYMs
+  Copying .symbols files to /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm/universal/Symbols
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  ipatool JSON: {
+    alerts =     (
+                {
+            code = 2819;
+            description = "Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        },
+                {
+            code = 2819;
+            description = "Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it";
+            info =             {
+            };
+            level = WARN;
+        }
+    );
+    thinnableAssetCatalogs =     (
+        "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root/Payload/Universal.app/Assets.car"
+    );
+    universalIPA =     {
+        path = "/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/IDEIPAProcessor.AppThinning.MFm/universal";
+    };
+}
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionSymbolsStep
+2018-01-04 09:41:48 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionAppThinningStep
+2018-01-04 09:41:48 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionODRStep
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-01-04 09:41:48 +0000  Running /usr/bin/xattr '-crs' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root/Payload/Universal.app'
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  /usr/bin/xattr exited with 0
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionCodesignStep
+2018-01-04 09:41:48 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fd9913c4230 'com.baohuan.www' '<DVTFilePath:0x7fd9912790b0:'/Users/qianbosheng/Library/Developer/Xcode/Archives/2018-01-04/Universal 2018-1-4 下午5.31.xcarchive/Products/Applications/Universal.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fd990f6aa00>: {
+}
+2018-01-04 09:41:48 +0000  Entitlements for <IDEDistributionItem: 0x7fd9913c4230 'com.baohuan.www' '<DVTFilePath:0x7fd9912790b0:'/Users/qianbosheng/Library/Developer/Xcode/Archives/2018-01-04/Universal 2018-1-4 下午5.31.xcarchive/Products/Applications/Universal.app'>'>: {
+    "application-identifier" = "YV66YG42MQ.com.baohuan.www";
+    "com.apple.developer.team-identifier" = YV66YG42MQ;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "YV66YG42MQ.com.baohuan.www"
+    );
+}
+2018-01-04 09:41:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd9913c4230 'com.baohuan.www' '<DVTFilePath:0x7fd9912790b0:'/Users/qianbosheng/Library/Developer/Xcode/Archives/2018-01-04/Universal 2018-1-4 下午5.31.xcarchive/Products/Applications/Universal.app'>'> to: /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/entitlementsI3IcsG
+2018-01-04 09:41:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '650565844E79B46E12CA6B02EC04553D12833FA0' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/entitlementsI3IcsG' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root/Payload/Universal.app'
+2018-01-04 09:41:48 +0000  /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root/Payload/Universal.app: signed app bundle with Mach-O universal (armv7 arm64) [com.baohuan.www]
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  /usr/bin/codesign exited with 0
+2018-01-04 09:41:48 +0000  
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-01-04 09:41:48 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-01-04 09:41:48 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root' '/var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Packages/Universal.ipa'
+2018-01-04 09:41:48 +0000  >>> Copying /var/folders/b2/7ffl3v150n99f30smz25cj400000gn/T/XcodeDistPipeline.HjU/Root 
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/_CodeSignature/CodeResources ... 
+2018-01-04 09:41:48 +0000  19911 bytes for ./Payload/Universal.app/_CodeSignature/CodeResources
+copying file ./Payload/Universal.app/mainAdvertCell.nib ... 
+2018-01-04 09:41:48 +0000  4751 bytes for ./Payload/Universal.app/mainAdvertCell.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/registerNextViewController.nib ... 
+2018-01-04 09:41:48 +0000  6009 bytes for ./Payload/Universal.app/registerNextViewController.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/startViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  6153 bytes for ./Payload/Universal.app/startViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/startViewController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  5486 bytes for ./Payload/Universal.app/startViewController.nib/runtime.nib
+copying file ./Payload/Universal.app/feedbackViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  3942 bytes for ./Payload/Universal.app/feedbackViewController.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/feedbackViewController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  3275 bytes for ./Payload/Universal.app/feedbackViewController.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/homeLiveTableViewCell.nib ... 
+3757 bytes for ./Payload/Universal.app/homeLiveTableViewCell.nib
+copying file ./Payload/Universal.app/mainRepairsViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  6403 bytes for ./Payload/Universal.app/mainRepairsViewController.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/mainRepairsViewController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  5737 bytes for ./Payload/Universal.app/mainRepairsViewController.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/Universal ... 
+2018-01-04 09:41:48 +0000  1600976 bytes for ./Payload/Universal.app/Universal
+copying file ./Payload/Universal.app/changeNicknameVC.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  4043 bytes for ./Payload/Universal.app/changeNicknameVC.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/changeNicknameVC.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  3379 bytes for ./Payload/Universal.app/changeNicknameVC.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/payInfoView.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  5670 bytes for ./Payload/Universal.app/payInfoView.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/payInfoView.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  5006 bytes for ./Payload/Universal.app/payInfoView.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/addressView.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  5124 bytes for ./Payload/Universal.app/addressView.nib/objects-11.0+.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/addressView.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  4454 bytes for ./Payload/Universal.app/addressView.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/Universal.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Universal.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-01-04 09:41:48 +0000  1986 bytes for ./Payload/Universal.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-01-04 09:41:48 +0000  258 bytes for ./Payload/Universal.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  3682 bytes for ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  3802 bytes for ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib ... 
+832 bytes for ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  832 bytes for ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Universal.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/archived-expanded-entitlements.xcent ... 
+368 bytes for ./Payload/Universal.app/archived-expanded-entitlements.xcent
+copying file ./Payload/Universal.app/Assets.car ... 
+2018-01-04 09:41:48 +0000  216184 bytes for ./Payload/Universal.app/Assets.car
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/LoginViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  6648 bytes for ./Payload/Universal.app/LoginViewController.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/LoginViewController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  5979 bytes for ./Payload/Universal.app/LoginViewController.nib/runtime.nib
+copying file ./Payload/Universal.app/payRecordsCell.nib ... 
+2018-01-04 09:41:48 +0000  5427 bytes for ./Payload/Universal.app/payRecordsCell.nib
+copying file ./Payload/Universal.app/personalCellTitle.plist ... 
+245 bytes for ./Payload/Universal.app/personalCellTitle.plist
+copying file ./Payload/Universal.app/registerViewController.nib ... 
+2018-01-04 09:41:48 +0000  4912 bytes for ./Payload/Universal.app/registerViewController.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/addAddressViewController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  8146 bytes for ./Payload/Universal.app/addAddressViewController.nib/objects-11.0+.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/addAddressViewController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  7488 bytes for ./Payload/Universal.app/addAddressViewController.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/messagePayRecordsCell.nib ... 
+2018-01-04 09:41:48 +0000  6325 bytes for ./Payload/Universal.app/messagePayRecordsCell.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/messageNoticeCell.nib ... 
+2018-01-04 09:41:48 +0000  4985 bytes for ./Payload/Universal.app/messageNoticeCell.nib
+copying file ./Payload/Universal.app/embedded.mobileprovision ... 
+2018-01-04 09:41:48 +0000  7611 bytes for ./Payload/Universal.app/embedded.mobileprovision
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/SVProgressHUD.bundle/info.png ... 
+2018-01-04 09:41:48 +0000  365 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/info.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/error@3x.png ... 
+398 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/error@3x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask@3x.png ... 
+2018-01-04 09:41:48 +0000  8319 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask@3x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask@2x.png ... 
+2018-01-04 09:41:48 +0000  4893 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask@2x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/error@2x.png ... 
+2018-01-04 09:41:48 +0000  306 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/error@2x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/info@3x.png ... 
+1200 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/info@3x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/success@2x.png ... 
+2018-01-04 09:41:48 +0000  462 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/success@2x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/success@3x.png ... 
+2018-01-04 09:41:48 +0000  714 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/success@3x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/info@2x.png ... 
+2018-01-04 09:41:48 +0000  816 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/info@2x.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/error.png ... 
+184 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/error.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/success.png ... 
+2018-01-04 09:41:48 +0000  262 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/success.png
+copying file ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask.png ... 
+2018-01-04 09:41:48 +0000  1845 bytes for ./Payload/Universal.app/SVProgressHUD.bundle/angle-mask.png
+copying file ./Payload/Universal.app/forgotPasswordViewController.nib ... 
+2018-01-04 09:41:48 +0000  8053 bytes for ./Payload/Universal.app/forgotPasswordViewController.nib
+copying file ./Payload/Universal.app/Info.plist ... 
+2018-01-04 09:41:48 +0000  2484 bytes for ./Payload/Universal.app/Info.plist
+copying file ./Payload/Universal.app/WYPayController.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  3941 bytes for ./Payload/Universal.app/WYPayController.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/WYPayController.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  3273 bytes for ./Payload/Universal.app/WYPayController.nib/runtime.nib
+2018-01-04 09:41:48 +0000  copying file ./Payload/Universal.app/personalAddressCell.nib ... 
+2018-01-04 09:41:48 +0000  4742 bytes for ./Payload/Universal.app/personalAddressCell.nib
+copying file ./Payload/Universal.app/PkgInfo ... 
+8 bytes for ./Payload/Universal.app/PkgInfo
+copying file ./Payload/Universal.app/changeResidenceVC.nib/objects-11.0+.nib ... 
+2018-01-04 09:41:48 +0000  6528 bytes for ./Payload/Universal.app/changeResidenceVC.nib/objects-11.0+.nib
+copying file ./Payload/Universal.app/changeResidenceVC.nib/runtime.nib ... 
+2018-01-04 09:41:48 +0000  5864 bytes for ./Payload/Universal.app/changeResidenceVC.nib/runtime.nib
+2018-01-04 09:41:48 +0000  2018-01-04 09:41:48 +0000  
+
+2018-01-04 09:41:48 +0000  /usr/bin/ditto exited with 0
+2018-01-04 09:41:48 +0000  Processing step: IDEDistributionCreateManifestStep
