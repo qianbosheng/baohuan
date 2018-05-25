@@ -7,27 +7,20 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://qianbosheng.github.io/baohuan/Universal.ipa</string>
+		<string>https://qianbosheng.github.io/baohuan/DJYP.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://qianbosheng.github.io/baohuan/Universal.png</string>
+		<string>https://qianbosheng.github.io/baohuan/DJYP.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://qianbosheng.github.io/baohuan/Universal.png</string>
+		<string>https://qianbosheng.github.io/baohuan/DJYP.png</string>
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
-	<key>provisioningProfiles</key>
-	<dict>
-		<key>com.baohuan.www</key>
-		<string>Test++</string>
-	</dict>
-	<key>signingCertificate</key>
-	<string>iPhone Distribution</string>
 	<key>signingStyle</key>
-	<string>manual</string>
+	<string>automatic</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>YV66YG42MQ</string>
+	<string>MHA7B2RH7T</string>
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 </dict>

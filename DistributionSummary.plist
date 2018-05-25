@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Universal.ipa</key>
+	<key>DJYP.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -13,40 +13,40 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>650565844E79B46E12CA6B02EC04553D12833FA0</string>
+				<string>5789E0FDA52CD11F2B623CC470B1915CE67F6B53</string>
 				<key>dateExpires</key>
-				<string>2018/8/2</string>
+				<string>2019/5/25</string>
 				<key>type</key>
 				<string>iOS Distribution</string>
 			</dict>
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>YV66YG42MQ.com.baohuan.www</string>
+				<string>MHA7B2RH7T.com.djyp.www</string>
 				<key>com.apple.developer.team-identifier</key>
-				<string>YV66YG42MQ</string>
+				<string>MHA7B2RH7T</string>
 				<key>get-task-allow</key>
 				<false/>
 				<key>keychain-access-groups</key>
 				<array>
-					<string>YV66YG42MQ.com.baohuan.www</string>
+					<string>MHA7B2RH7T.com.djyp.www</string>
 				</array>
 			</dict>
 			<key>name</key>
-			<string>Universal.app</string>
+			<string>DJYP.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>c41af536-8828-49d0-869d-bb754fe4f3f4</string>
+				<string>3cdba7f4-f210-4638-a44f-03d536a34a92</string>
 				<key>name</key>
-				<string>Test++</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.djyp.www</string>
 			</dict>
 			<key>team</key>
 			<dict>
 				<key>id</key>
-				<string>YV66YG42MQ</string>
+				<string>MHA7B2RH7T</string>
 				<key>name</key>
-				<string>Hebei Asia Network Technology Co., Ltd.</string>
+				<string>Henan Blackstone Nationwide Financial Services Inc</string>
 			</dict>
 		</dict>
 	</array>
