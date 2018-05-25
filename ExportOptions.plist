@@ -15,8 +15,15 @@
 	</dict>
 	<key>method</key>
 	<string>ad-hoc</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.djyp.www</key>
+		<string>test___Q</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>5789E0FDA52CD11F2B623CC470B1915CE67F6B53</string>
 	<key>signingStyle</key>
-	<string>automatic</string>
+	<string>manual</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
